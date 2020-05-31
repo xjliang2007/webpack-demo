@@ -28,6 +28,7 @@ module.exports = {
 		publicPath: "/"
 	},
 	optimization: {
+		usedExports: true,
 		runtimeChunk: "single",
 		splitChunks: {
 			cacheGroups: {
